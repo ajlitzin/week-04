@@ -6,6 +6,7 @@ describe "#search_for_quote" do
     
     it "should return an empty list of results" do
       search_for_quote(:file => "FILE_DOES_NOT_EXIST",:start_with => "The").should be_empty
+#	  search_for_quote(:file => "FILE_DOES_NOT_EXIST",:start_with => "The")
     end
     
   end
